@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
 /* Fonts: 
     font-family: 'DM Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -252,10 +252,11 @@ a{
 }
 /* Brand Name */
 .nav-brand{
-    font-family: 'DM Sans', sans-serif;
+    /* font-family: 'DM Sans', sans-serif; */
+    font-family: 'Passions Conflict', cursive;
     font-weight: bold;
     align-self: center;
-    font-size: 32px;
+    font-size: 40px;
 }
 /* Collapse */
 .collapse{

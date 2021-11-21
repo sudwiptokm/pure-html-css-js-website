@@ -2,16 +2,25 @@
 
 let toggle = document.querySelector("#header .toggle-button");
 let collapse = document.querySelectorAll("#header .collapse");
+let grid = document.querySelector("#posts .grid")
+var msnry
 
 toggle.addEventListener('click', function(){
     collapse.forEach(col => col.classList.toggle("collapse-toogle"));
 })
 
 // Working with Masonry Libarary
-new Masonry("#posts .grid", {
+new Masonry(grid, {
     itemSelector: '.grid-item',
     gutter: 20
 })
+// imagesLoaded( "#posts .grid", function() {
+//     // init Isotope after all images have loaded
+//     new Masonry("#posts .grid", {
+//         itemSelector: '.grid-item',
+//         gutter: 20
+//     })
+//   });
 
 // Swiper Library Initialization
 new Swiper('.swiper-container', {
